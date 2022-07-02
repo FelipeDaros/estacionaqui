@@ -1,6 +1,6 @@
 <?php
 
-$servername = "	sql206.unaux.com";
+$servername = "sql206.unaux.com";
 $database = "unaux_32073220_estacionamento";
 $username = "unaux_32073220";
 $password = "aizhe85q7s";
