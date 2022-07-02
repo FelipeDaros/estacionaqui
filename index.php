@@ -1,3 +1,11 @@
+<?php
+  $email = $_SESSION['email'];
+  if(!empty($email)){
+    session_start();
+  }else{
+    echo "Você precisa fazer o login!";
+  }
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,5 +23,10 @@
   <h1></h1>
   <p>Mudado!</p>
   <a href="./src/pages/user/index.php">USERS</a>
+  <?php 
+    if(!empty($_SESSION['email'])){
+      echo "<p>Você está logado!</p>";
+    }
+  ?>
 </body>
 </html>

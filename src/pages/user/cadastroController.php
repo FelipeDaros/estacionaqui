@@ -2,7 +2,7 @@
 include_once "../../connection/connection.php";
 
 $name = $_POST['name'];
-$password = $_POST['password'];
+$password = MD5($_POST['password']);
 $email = $_POST['email'];
 
 

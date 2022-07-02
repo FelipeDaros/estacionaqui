@@ -13,6 +13,7 @@
     form{
       margin: 0 auto;
       padding: 25px;
+      margin-top: 12%;
     }
     
     button{
@@ -26,7 +27,8 @@
 </head>
 <body>
   <div class="container" >
-    <form action="userController.php" method="POST" class="w-50">
+    <form action="loginController.php" method="POST" class="w-50">
+      <h4 class="text-center mb-4">Login</h4>
       <div class="input-group mb-3">
         <span class="input-group-text" id="basic-addon1">Email</span>
         <input type="text" class="form-control" name="email">
