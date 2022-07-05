@@ -1,9 +1,9 @@
 <?php
 
-$servername = "	sql206.unaux.com";
-$database = "unaux_32073220_estacionamento";
-$username = "unaux_32073220";
-$password = "aizhe85q7s";
+$servername = "sql10.freemysqlhosting.net";
+$database = "sql10504073";
+$username = "sql10504073";
+$password = "6bIWf1Ui7I";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 
