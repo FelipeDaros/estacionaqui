@@ -1,4 +1,6 @@
-<?php include_once "./src/services/verificaLogin.php";?>
+<?php
+  include_once "src/components/menuSuperior.php";
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -14,6 +16,10 @@
     div.row img{
       width: 50%; margin: 0 auto;
     }
+
+    div.row a{
+      margin: 0 auto;
+    }
   </style>
 </head>
 <body>
@@ -22,8 +28,12 @@
       <div class="col">
         <h4 class="text-center">Sistema integrado de controle de vagas para estacionamento</h4>
       </div>
-      <div class="row">
+      <div class="row mt-4">
         <img src="https://autopark.com.br/wp-content/uploads/2019/12/imagem-destaque.png" alt="estacionamento">
+      </div>
+      <div class="row mt-4">
+        <p class="text-center">Cadastre-se para começar a utilizar o sistema!</p>
+        <a class="btn btn-success w-25" href="src/pages/user/index.php">Cadastra-se</a>
       </div>
     </div>
   </div>
